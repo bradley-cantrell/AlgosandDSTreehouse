@@ -13,7 +13,6 @@ func main() {
 	linearSearch(list, target)
 }
 
-// if value exists in list, return position of value
 func linearSearch(list []int, target int) int {
 	for i, value := range list {
 		if value == target {
